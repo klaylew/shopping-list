@@ -34,7 +34,7 @@ function checkOffItem() {
   */
   //function that works on dynamically coded objects by listening to the parent element "ul"
   $('ul').on('click', 'li .shopping-item-toggle', function(event) {
-    $(this).closest('li').find('.shopping-item').toggleClass('shopping-item__checked').parent().appendTo($('ul'));
+    $(this).closest('li').find('.shopping-item').toggleClass('shopping-item__checked');
   })
 }
   
